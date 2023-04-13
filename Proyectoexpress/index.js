@@ -9,7 +9,6 @@ app.use(express.json());
 rutas (app);
 connect ();
 
-
 app.listen(3001, '', 1, () => {
     console.log('Ya quedo!!!')
     
